@@ -20,7 +20,7 @@ public final class SourceLocation: NSObject {
         line = 0
     }
 
-    init(file: FileString, line: UInt) {
+    public init(file: FileString, line: UInt) {
         self.file = file
         self.line = line
     }
